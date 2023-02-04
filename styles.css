@@ -1,4 +1,12 @@
-* {
+ @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Battambang&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Karma:wght@300&display=swap');
+
+ /* font-family: 'Karma', serif; 
+ */
+
+
+ * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -12,6 +20,8 @@
 
 body{
     background-color: #EEE1F6;
+    display: grid;
+    
 }
 
 .nav-bar {
@@ -27,6 +37,7 @@ body{
     background-color: #3B1756;
     text-decoration: none;
     font-weight: 200;
+    font-family: 'Bitter', serif;
     
 }
 
@@ -40,17 +51,52 @@ body{
     height: 80px;
 }
 
-
-
-
-/* @media (min-width: 480px){
-    
-    .nav-title .mobile-nav {
-        padding: 20px;
-        background-color: #9378a9;
-        color: white;
-        display: flex;
-        justify-content: center;
-        
-    }
+/* .main-title{
+    font-family: 'Battambang', cursive;
+    text-align: center;
 } */
+
+.slider-bar {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    place-items: center;
+    
+  }
+  
+.diapositiva {
+width: 100%;
+height: 500px;
+position: absolute;
+transition: all 0.5s;
+}
+  
+.diapo-img {
+width: 100%;
+height: 100%;
+object-fit: fill;
+}
+
+.diapo-boton {
+position: absolute;
+width: 40px;
+height: 40px;
+padding: 10px;
+border: none;
+border-radius: 30%;
+cursor: pointer;
+background-color: #ffffffb3;
+font-size: 18px;
+
+}
+
+.boton-prox {
+top: 210px;
+right: 10px;
+}
+
+.boton-prev {
+top: 210px;
+left: 10px;
+}
+
