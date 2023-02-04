@@ -1,3 +1,5 @@
+//FUNCIONAMIENTO HERO ------------------------------------------
+
 //Selecciona todas las imagenes
 const diapo = document.querySelectorAll(".diapositiva");
 
@@ -44,3 +46,4 @@ prevDiapo.addEventListener("click", function () {
        slide.style.transform = `translateX(${100 * (index - current)}%)`;
   })
 });
+
