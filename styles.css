@@ -104,3 +104,42 @@ top: 450px;
 left: 10px;
 }
 
+
+@media screen and (max-width: 900px){
+
+    
+    .diapositiva {
+        height: 60%;
+        }
+
+    .boton-prox {
+        top: 250px;
+        right: 10px;
+        }
+        
+    .boton-prev {
+    top: 250px;
+    left: 10px;
+    }
+
+    
+}
+
+@media screen and (max-width: 500px){
+
+    .diapositiva {
+        height: 40%;
+        }
+
+    .boton-prox {
+        top: 150px;
+        right: 10px;
+        }
+        
+    .boton-prev {
+    top: 150px;
+    left: 10px;
+    }
+
+    
+}
