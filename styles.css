@@ -28,7 +28,7 @@ body{
 .nav-bar {
     margin-top: 0px;
     padding-top: 30px;
-    margin-right: 50px;
+    display: block;
     float:right;
     text-align: center;
     
@@ -53,6 +53,7 @@ body{
     background-color: #3B1756;
     height: 80px;
 }
+
 
 /* .main-title{
     font-family: 'Battambang', cursive;
@@ -104,10 +105,14 @@ top: 450px;
 left: 10px;
 }
 
+#Experience {
+    margin-top: 100px;
+    text-align: center;
+}
+
 
 @media screen and (max-width: 900px){
 
-    
     .diapositiva {
         height: 60%;
         }
@@ -122,6 +127,10 @@ left: 10px;
     left: 10px;
     }
 
+    #Experience {
+        margin-top: -200px;
+        font-family: 'Karma', serif;
+    }
     
 }
 
@@ -140,6 +149,11 @@ left: 10px;
     top: 150px;
     left: 10px;
     }
+
+    #Experience {
+        margin-top: -400px;
+    }
+   
 
     
 }
