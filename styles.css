@@ -58,15 +58,16 @@ body{
 
 .slider-bar {
     width: 100%;
-    height: 450px;
+    height: 800px;
     position: relative;
     place-items: center;
+    overflow: hidden;
     
   }
   
 .diapositiva {
 width: 100%;
-height: 500px;
+height: 100%;
 position: absolute;
 transition: all 0.5s;
 }
@@ -91,12 +92,12 @@ font-size: 18px;
 }
 
 .boton-prox {
-top: 210px;
+top: 450px;
 right: 10px;
 }
 
 .boton-prev {
-top: 210px;
+top: 450px;
 left: 10px;
 }
 
