@@ -293,7 +293,7 @@ left: 10px;
     "gusto1 gusto2" 
     "gusto3 gusto4";
     justify-items: center;
-    
+    margin-bottom: 50px;
     
 }
 
@@ -331,11 +331,63 @@ left: 10px;
    
 }
 
+.progress-section {
+    text-align: center;
+}
+
+.Progress-bar {
+    width: 80%;
+    background-color: #ddd;
+    margin-left: 150px;
+    
+  }
+  
+.bar {
+    width: 5%;
+    height: 30px;
+    background-color:#973edb;
+    padding: 5px 20px;
+    color:#3B1756;
+    text-shadow: 1px 1px black;
+    
+  }
+
+.skill-chart{
+    background-color:#3B1756;
+
+}
+
+.progress-btn{
+    margin: 10px 0;
+    
+}
+
+.btn {
+    border: none;
+    border-radius: 10%;
+    background-color: #3B1756;
+    color:white;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.Progress-title{
+    font-family: 'Bitter', serif;
+    color: #3B1756;
+    text-decoration: underline;
+    margin: 20px 0;
+    animation: move 0.75s infinite alternate;
+    display: inline-block;
+    animation-timing-function: linear;
+}
 
 
+.skill-btn {
+    margin-left: 50px;
+}
 
-
-/* MEDIA RESPONSIVE */
+/* -------------------- MEDIA RESPONSIVE ----------------------- */
 
 @media screen and (max-width: 900px){
 
@@ -355,7 +407,7 @@ left: 10px;
 
     #Experience {
         margin-top: -200px;
-        font-family: 'Karma', serif;
+        
     }
     
     .proyectos{
@@ -395,8 +447,6 @@ left: 10px;
 
     }
 
-
-    
 
     .gustos{
         grid-area: gustos;
@@ -506,5 +556,6 @@ left: 10px;
         height: 200px;
         
     }
+
     
 }

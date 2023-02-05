@@ -47,3 +47,25 @@ prevDiapo.addEventListener("click", function () {
   })
 });
 
+
+//  Skills code
+
+
+//Función llenar barra
+const progreso = document.querySelector(".progress-btn")
+const bar = document.getElementById("bar-skill");
+
+progreso.addEventListener("click", function () {
+    if (bar.style.width === "5%"){
+    bar.style.width = "50%";
+    bar.innerText = "Still Loading... Aún queda un largo camino por recorrer.";
+    }else{
+        bar.style.width = "5%";
+        bar.innerText = "Loading...";
+    }
+});
+
+
+
+
+
