@@ -105,7 +105,7 @@ top: 450px;
 left: 10px;
 }
 
-#Experience {
+.page-header {
     margin-top: 90px;
     text-align: center;
     font-family: 'Battambang';
@@ -193,13 +193,37 @@ left: 10px;
     }
   }
 
-.experience-header:hover{
+.page-header:hover{
     animation: spin 0.5s infinite linear;
     text-decoration: underline;
     cursor: pointer;
 }
 
+.about-me-section{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "perfil objetivos";
+}
 
+#about-header{
+    grid-area: header;
+}
+
+.perfil{
+    grid-area: perfil;
+}
+
+.objetivos {
+    grid-area: objetivos;
+}
+
+
+.foto-emily{
+    width:300px;
+    margin-left:50px;
+    border:20px #3B1756 solid;
+}
 
 /* MEDIA RESPONSIVE */
 
