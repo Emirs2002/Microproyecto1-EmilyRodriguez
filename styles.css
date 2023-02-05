@@ -203,7 +203,8 @@ left: 10px;
     display: grid;
     grid-template-areas: 
     "header header"
-    "perfil objetivos";
+    "perfil objetivos"
+    "gustos gustos";
     background-color: #3B1756;
 }
 
@@ -234,7 +235,7 @@ left: 10px;
     width:300px;
     border:20px #EEE1F6 solid;
     margin-top: 20px;
-    margin-left: 310px;
+    margin-left: 260px;
 }
 
 .nombre{
@@ -259,6 +260,40 @@ left: 10px;
     list-style: square;
     margin-left: 50px;
 
+}
+
+.gustos-title{
+    grid-area: gusto-title;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    padding-top: 40px;
+    font-size: 30px;
+    color: #EEE1F6;
+}
+
+.gustos{
+    grid-area: gustos;
+
+    display: grid;
+    grid-template-areas: 
+    "gusto-title gusto-title"
+    "gusto1 gusto2" 
+    "gusto3 gusto4";
+}
+
+
+.gusto1{
+    grid-area: gusto1;
+}
+
+.gusto2{
+    grid-area: gusto2;
+}
+.gusto3{
+    grid-area: gusto3;
+}
+.gusto4{
+    grid-area: gusto4;
 }
 
 
