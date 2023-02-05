@@ -215,11 +215,23 @@ left: 10px;
     color: #EEE1F6;
 }
 
+@keyframes move {
+    to {
+      translate: 50px;
+    }
+  }
+
 .perfil{
     grid-area: perfil;
     
+    animation: move 1s infinite alternate;
+    position: relative;
+    display: inline-block;
+    animation-timing-function: ease-out;
     
 }
+
+
 
 .objetivos {
     grid-area: objetivos;
@@ -265,6 +277,7 @@ left: 10px;
 
 .gustos-title{
     grid-area: gusto-title;
+    text-align: center;
     font-family: 'Bitter', serif;
     padding: 40px 0;
     font-size: 30px;
@@ -359,6 +372,52 @@ left: 10px;
         margin-left: 10px;
     }
 
+    .about-me-section{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "perfil"
+        "objetivos"
+        "gustos";
+        background-color: #3B1756;
+        justify-items: center;
+    }
+
+    .objetivos {
+        grid-area: objetivos;
+        text-align: center;
+        margin-top: 50px;
+       
+        border: #EEE1F6 solid;
+        border-radius: 5%;
+        background-color: #EEE1F6;
+        padding: 10px 40px;
+
+    }
+
+
+    
+
+    .gustos{
+        grid-area: gustos;
+    
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-areas: 
+        "gusto-title"
+        "gusto1 gusto2" 
+        "gusto3 gusto4";
+        justify-items: center;
+        
+        
+    }
+    
+    .gusto-img{
+        width: 250px;
+        height: 200px;
+        
+    }
+
   
 }
 
@@ -402,5 +461,50 @@ left: 10px;
         width: 70%;
     }
 
+    .about-me-section{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "perfil"
+        "objetivos"
+        "gustos";
+        background-color: #3B1756;
+        justify-items: center;
+    }
+
+    .objetivos {
+        grid-area: objetivos;
+        text-align: center;
+        margin-top: 50px;
+       
+        border: #EEE1F6 solid;
+        border-radius: 5%;
+        background-color: #EEE1F6;
+        padding: 10px 40px;
+
+    }
+
+
+    
+
+    .gustos{
+        grid-area: gustos;
+    
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-template-areas: 
+        "gusto-title"
+        "gusto1 gusto2" 
+        "gusto3 gusto4";
+        justify-items: center;
+        
+        
+    }
+    
+    .gusto-img{
+        width: 200px;
+        height: 200px;
+        
+    }
     
 }
