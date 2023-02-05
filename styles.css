@@ -1,5 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Battambang&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Battambang:wght@700&family=Karma:wght@300&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Karma:wght@300&display=swap');
 
  /* font-family: 'Karma', serif; 
@@ -106,10 +106,102 @@ left: 10px;
 }
 
 #Experience {
-    margin-top: 100px;
+    margin-top: 90px;
     text-align: center;
+    font-family: 'Battambang';
+    color:#3B1756; 
+    font-size: 40px;
+   
 }
 
+
+.proyectos{
+    display: grid;
+    grid-template-areas: 
+    "post1 post2"
+    "post3 post3" ;
+    margin-left: 90px;
+}
+
+.project-post{
+    display: inline-block;
+    border: 4px #3B1756 solid;
+    border-radius: 10%;
+    margin: 10px;
+    text-align: center;
+    width: 600px;
+}
+
+
+
+.post1{
+    grid-area: post1;
+}
+
+.post2{
+    grid-area: post2;
+}
+
+.post3{
+    grid-area: post3;
+    margin-left: 350px;
+    
+}
+
+
+.project-img{
+    
+    width: 500px;
+
+}
+
+.project-title{
+    font-family: 'Bitter', serif;
+    padding: 20px 0;
+}
+
+.technologies {
+    list-style: square;
+    margin-left: 70px;
+    padding-top: 20px;
+}
+.techno-item{
+   text-align: left;
+   font-family: 'Karma', serif; 
+}
+
+.project-date{
+    font-family: 'Karma', serif; 
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.project-btn{
+    margin-bottom: 20px;
+    background-color: #3B1756;
+    color:white;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+@keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.experience-header:hover{
+    animation: spin 0.5s infinite linear;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+/* MEDIA RESPONSIVE */
 
 @media screen and (max-width: 900px){
 
@@ -132,7 +224,23 @@ left: 10px;
         font-family: 'Karma', serif;
     }
     
+    .proyectos{
+        display: grid;
+        grid-template-areas: 
+        "post1"
+        "post2"
+        "post3" ;
+        margin-left: 50px;
+
+    }
+
+    .post3{
+        margin-left: 10px;
+    }
+
+  
 }
+
 
 @media screen and (max-width: 500px){
 
@@ -154,6 +262,24 @@ left: 10px;
         margin-top: -400px;
     }
    
+    .proyectos{
+        display: grid;
+        grid-template-areas: 
+        "post1"
+        "post2"
+        "post3" ;
+        margin-left: 20px;
+
+    }
+
+    .project-post{
+        display: inline-block;
+        width: 400px;
+    }
+
+    .project-img{
+        width: 70%;
+    }
 
     
 }
