@@ -204,26 +204,66 @@ left: 10px;
     grid-template-areas: 
     "header header"
     "perfil objetivos";
+    background-color: #3B1756;
 }
 
 #about-header{
     grid-area: header;
+    margin-bottom: 30px;
+    color: #EEE1F6;
 }
 
 .perfil{
     grid-area: perfil;
+    align-items: center;
+    
 }
 
 .objetivos {
     grid-area: objetivos;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 70px;
+    border: #EEE1F6 solid;
+    border-radius: 5%;
+    background-color: #EEE1F6;
 }
 
 
 .foto-emily{
     width:300px;
-    margin-left:50px;
-    border:20px #3B1756 solid;
+    border:20px #EEE1F6 solid;
+    margin-top: 20px;
+    margin-left: 310px;
 }
+
+.nombre{
+    font-family: 'Bitter', serif;
+    text-align: center;
+    color: white;
+}
+
+.obj-title{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-family: 'Bitter', serif;
+
+}
+
+.obj-item{
+    font-family: 'Karma', serif;
+    text-align: left;
+}
+
+.obj-list{
+    list-style: square;
+    margin-left: 50px;
+
+}
+
+
+
+
 
 /* MEDIA RESPONSIVE */
 
