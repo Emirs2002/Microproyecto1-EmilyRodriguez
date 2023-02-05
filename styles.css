@@ -352,10 +352,6 @@ left: 10px;
     
   }
 
-.skill-chart{
-    background-color:#3B1756;
-
-}
 
 .progress-btn{
     margin: 10px 0;
@@ -386,6 +382,46 @@ left: 10px;
 .skill-btn {
     margin-left: 50px;
 }
+
+.skills-chart{
+    margin: 30px 0;
+   
+    color: #ddd;
+    display: grid;
+    grid-template-areas: 
+    "skill1 skill2"
+    "skill3 skill3";
+    justify-content: center;
+    grid-template-columns: 400px 400px;
+    justify-content: space-around;
+}
+
+.skill-post{
+    border: #3B1756 solid;
+    border-radius: 10%;
+    background-color: #3B1756;
+}
+
+.skill1{
+    margin-bottom: 50px;
+}
+
+.skill2{
+    margin-bottom: 50px;
+}
+
+.skill-title{
+    text-align: center;
+    font-family: 'Bitter', serif;
+    margin: 20px 0;
+}
+
+.skill-description{
+    font-family: 'Karma', serif; 
+    text-align: center;
+    margin: 10px 20px;
+}
+
 
 /* -------------------- MEDIA RESPONSIVE ----------------------- */
 
