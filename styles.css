@@ -441,7 +441,7 @@ left: 10px;
 
 .redes-header{
     grid-area: header-red;
-    font-family: 'Bitter', serif;
+    font-family: 'Battambang', cursive;
     color: #EEE1F6;
     text-align: center;
     margin: 40px 0;
@@ -497,12 +497,15 @@ left: 10px;
     
     background-color: #EEE1F6;
     padding: 50px 0;
+    border-radius: 10%;
 }
 
 .red-descripcion{
     font-family: 'Karma', serif; 
     color: #EEE1F6;
 }
+
+
 
 /* -------------------- MEDIA RESPONSIVE ----------------------- */
 
@@ -622,7 +625,19 @@ left: 10px;
         
       }
 
+      .red-img1{
+        width:100px
+    }
+    
+    .red-img2{
+        width:100px
+    }
+    
+    .red-img3{
+        width:100px
+    }
 
+   
   
 }
 
@@ -748,4 +763,19 @@ left: 10px;
         
       }
     
+      .redes-sociales{
+        display: grid;
+        grid-template-areas: 
+        "header-red header-red"
+        "red1 red2"
+        "red3 red4"
+        "msg-red msg-red"
+        "red5 red5";
+        align-items: center;
+    }
+
+    .red-msg{
+        margin: 0 90px;
+        
+    }
 }
