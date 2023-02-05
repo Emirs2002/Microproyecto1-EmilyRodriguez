@@ -422,6 +422,87 @@ left: 10px;
     margin: 10px 20px;
 }
 
+.contact-me{
+    background-color: #3B1756;
+}
+
+#ContactMe{
+    color: #EEE1F6;
+}
+
+.redes-sociales{
+    display: grid;
+    grid-template-areas: 
+    "header-red header-red header-red"
+    "red1 red2 red3"
+    "red4 msg-red red5";
+    align-items: center;
+}
+
+.redes-header{
+    grid-area: header-red;
+    font-family: 'Bitter', serif;
+    color: #EEE1F6;
+    text-align: center;
+    margin: 40px 0;
+}
+.red{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.red1{
+    grid-area: red1;
+}
+
+.red2{
+    grid-area: red2;
+}
+
+.red3{
+    grid-area: red3;
+}
+
+.red4{
+    grid-area: red4;
+}
+
+.red5{
+    grid-area: red5;
+}
+
+.red-img1{
+    width:200px
+}
+
+.red-img2{
+    width:200px
+}
+
+.red-img3{
+    width:200px
+}
+
+.red-title{
+    font-family: 'Bitter', serif;
+    color: #EEE1F6;
+    margin: 20px 0;
+}
+
+.red-msg{
+    font-family: 'Karma', serif; 
+    grid-area: msg-red;
+    color:#3B1756;
+    text-align: center;
+    
+    background-color: #EEE1F6;
+    padding: 50px 0;
+}
+
+.red-descripcion{
+    font-family: 'Karma', serif; 
+    color: #EEE1F6;
+}
 
 /* -------------------- MEDIA RESPONSIVE ----------------------- */
 
