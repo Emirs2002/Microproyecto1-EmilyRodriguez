@@ -58,7 +58,7 @@ const bar = document.getElementById("bar-skill");
 progreso.addEventListener("click", function () {
     if (bar.style.width === "5%"){
     bar.style.width = "50%";
-    bar.innerText = "Still Loading... Aún queda un largo camino por recorrer.";
+    bar.innerText = "Queda mucho aún...";
     }else{
         bar.style.width = "5%";
         bar.innerText = "Loading...";
@@ -78,6 +78,7 @@ let skill = '{"skills": [' +
 '{"skillName":"Interés en la tecnología", "descripcion": "Desde siempre he tenido un gran interés en el mundo de la tecnología y siempre me ha gustado curiosear cosas en mi computadora para arreglarla o modificarla como me gusta, por lo tanto aunque no tengo un conocimiento tan amplio como me gustaría, creo que sí facilita mi entendimiento sobre algunos aspectos básicos del mundillo."}]}';
 
 //convertir el json a Objeto
+//sí vi la prepa
 const skillJson = JSON.parse(skill)
 
 
