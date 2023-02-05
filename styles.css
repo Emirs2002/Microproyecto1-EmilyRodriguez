@@ -206,6 +206,7 @@ left: 10px;
     "perfil objetivos"
     "gustos gustos";
     background-color: #3B1756;
+    justify-items: center;
 }
 
 #about-header{
@@ -216,7 +217,7 @@ left: 10px;
 
 .perfil{
     grid-area: perfil;
-    align-items: center;
+    
     
 }
 
@@ -224,10 +225,10 @@ left: 10px;
     grid-area: objetivos;
     text-align: center;
     margin-top: 50px;
-    margin-right: 70px;
     border: #EEE1F6 solid;
     border-radius: 5%;
     background-color: #EEE1F6;
+    padding: 0 80px;
 }
 
 
@@ -235,12 +236,12 @@ left: 10px;
     width:300px;
     border:20px #EEE1F6 solid;
     margin-top: 20px;
-    margin-left: 260px;
+    
 }
 
 .nombre{
     font-family: 'Bitter', serif;
-    text-align: center;
+    
     color: white;
 }
 
@@ -264,9 +265,8 @@ left: 10px;
 
 .gustos-title{
     grid-area: gusto-title;
-    text-align: center;
     font-family: 'Bitter', serif;
-    padding-top: 40px;
+    padding: 40px 0;
     font-size: 30px;
     color: #EEE1F6;
 }
@@ -279,21 +279,43 @@ left: 10px;
     "gusto-title gusto-title"
     "gusto1 gusto2" 
     "gusto3 gusto4";
+    justify-items: center;
+    
+    
 }
 
+.gusto-img{
+    border: 10px #EEE1F6 solid;
+}
 
 .gusto1{
     grid-area: gusto1;
+    width: 400px;
+    border-radius: 10%;
+    margin-right: 20px;
 }
 
 .gusto2{
     grid-area: gusto2;
+    width: 450px;
+    height: 400px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+
 }
 .gusto3{
     grid-area: gusto3;
+    width: 400px;
+    height: 380px;
+    border-radius: 10%;
+    margin-right: 20px;
 }
 .gusto4{
     grid-area: gusto4;
+    width: 450px;
+    height: 380px;
+    border-radius: 10%;
+   
 }
 
 
